@@ -3,10 +3,11 @@
 Welcome to the Frequently Asked Questions (FAQ) and Troubleshooting page!
 Here you'll find the answers to most of the questions related to **DiscordChatExporter** (DCE for short) and its core features.
 
-- ❓ If you still have unanswered questions _after_ reading this page, feel free to [create a new discussion](https://github.com/Tyrrrz/DiscordChatExporter/discussions/new).
-- 🐞 If you have encountered a problem that's not described here, has not [been discussed before](https://github.com/Tyrrrz/DiscordChatExporter/discussions), and is not a [known issue](https://github.com/Tyrrrz/DiscordChatExporter/issues?q=is%3Aissue), please [create a new discussion](https://github.com/Tyrrrz/DiscordChatExporter/discussions/new) or [open a bug report](https://github.com/Tyrrrz/DiscordChatExporter/issues/new). Don't forget to include your platform (Windows, Mac, Linux, etc.) and a detailed description of your question/problem.
+❓ If you still have unanswered questions _after_ reading this page, feel free to [create a new discussion](https://github.com/Tyrrrz/DiscordChatExporter/discussions/new).
+🐞 If you have encountered a problem that's not described here, has not [been discussed before](https://github.com/Tyrrrz/DiscordChatExporter/discussions), and is not a [known issue](https://github.com/Tyrrrz/DiscordChatExporter/issues?q=is%3Aissue), please [create a new discussion](https://github.com/Tyrrrz/DiscordChatExporter/discussions/new) or [open a bug report](https://github.com/Tyrrrz/DiscordChatExporter/issues/new).
+Don't forget to include your platform (Windows, Mac, Linux, etc.) and a detailed description of your question/problem.
 
-## General
+# General
 
 ### Token stealer?
 
@@ -54,7 +55,7 @@ No, DCE is an exporter.
 
 No, DCE is an exporter.
 
-## First steps
+# First steps
 
 ### How can I find my token?
 
@@ -98,7 +99,7 @@ If you already have .NET Core installed, please check if your problem is a [know
 
 Check the following page: [Installing .NET Core Runtime](https://github.com/Tyrrrz/DiscordChatExporter/blob/master/.docs/Dotnet.md)
 
-## CLI
+# CLI
 
 ### How do I use the CLI?
 
@@ -124,7 +125,7 @@ Check the following page:
 
 Make sure you're [copying the DM Channel ID](https://github.com/Tyrrrz/DiscordChatExporter/blob/master/.docs/Token-and-IDs.md#how-to-get-a-direct-message-channel-id), not the person's user ID.
 
-## Errors
+### Errors
 
 ```
 DiscordChatExporter.Domain.Exceptions.DiscordChatExporterException: Authentication token is invalid.
@@ -166,6 +167,5 @@ If it still doesn't work, try mozroots: `mozroots --import --ask-remove`
 
 ---
 
-> ❓ If you still have unanswered questions, feel free to [create a new discussion](https://github.com/Tyrrrz/DiscordChatExporter/discussions/new).
-
-> 🐞 If you have encountered a problem that's not described here, has not [been discussed before](https://github.com/Tyrrrz/DiscordChatExporter/discussions), and is not a [known issue](https://github.com/Tyrrrz/DiscordChatExporter/issues?q=is%3Aissue), please [create a new discussion](https://github.com/Tyrrrz/DiscordChatExporter/discussions/new) or [open a bug report](https://github.com/Tyrrrz/DiscordChatExporter/issues/new).
+❓ If you still have unanswered questions, feel free to [create a new discussion](https://github.com/Tyrrrz/DiscordChatExporter/discussions/new).
+🐞 If you have encountered a problem that's not described here, has not [been discussed before](https://github.com/Tyrrrz/DiscordChatExporter/discussions), and is not a [known issue](https://github.com/Tyrrrz/DiscordChatExporter/issues?q=is%3Aissue), please [create a new discussion](https://github.com/Tyrrrz/DiscordChatExporter/discussions/new) or [open a bug report](https://github.com/Tyrrrz/DiscordChatExporter/issues/new).

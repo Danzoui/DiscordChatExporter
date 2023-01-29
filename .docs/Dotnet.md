@@ -1,7 +1,6 @@
-# Install .NET runtime
+# Install .NET Core runtime
 
 **.NET v7.0 Runtime** is required by **DiscordChatExporter v2.37 and newer**.
-
 If you are using GUI flavor of DiscordChatExporter, the runtime will be installed automatically (since v2.27.1).
 If you are using the CLI from Docker, installing the runtime on the host machine is not needed.
 
@@ -20,11 +19,8 @@ If you are using the CLI from Docker, installing the runtime on the host machine
 - [.NET v7.0 Runtime for **Macs with Apple silicon**](https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-7.0.1-macos-arm64-installer)
 - [.NET v7.0 Runtime for **Macs with an Intel processor**](https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-7.0.1-macos-x64-installer)
 
-> **Note**:
-> [How can I tell if my computer is running a 32-bit (x86) or a 64-bit (x64) version of Windows?](https://support.microsoft.com/help/15056/windows-32-64-bit-faq)
-
-> **Note**:
-> [Is my Mac using an Intel processor or Apple silicon?](https://support.apple.com/HT211814)
+> 💡 [How can I tell if my computer is running a 32-bit (x86) or a 64-bit (x64) version of Windows?](https://support.microsoft.com/help/15056/windows-32-64-bit-faq)
+> 💡 [Is my Mac using an Intel processor or Apple silicon?](https://support.apple.com/HT211814)
 
 **Otherwise:**
 [Check out the latest version in this page](https://dotnet.microsoft.com/download/dotnet/7.0).
@@ -34,7 +30,7 @@ Look for the download link in the '**.NET Runtime**' section, under **Installers
 
 ## Linux
 
-**You only need to install .NET Runtime v7.0**
+**You only need to install .NET Core <u>Runtime</u> v7.0**
 
 Check out the instructions for your distro:
 
@@ -50,17 +46,17 @@ Installing .NET Runtime is not needed. Please refer to the [Docker usage instruc
 
 ## Verify installation (optional)
 
-You can check which version of **.NET Runtime** is installed by following these instructions:
+You can check which version of **.NET Core** is installed by following these instructions:
 
-### Step 1
+#### Step 1
 
 **Windows:** Open Command Prompt (aka `cmd`)
 **macOS and Linux:** Open `Terminal`
 
-### Step 2
+#### Step 2
 
 Run: `dotnet --info`
-If **.NET Runtime** is correctly installed, the command will output the following:
+If **.NET Core Runtime** is correctly installed, the command will output the following:
 
 ```
 

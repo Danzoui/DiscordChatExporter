@@ -23,7 +23,6 @@
 
     <materialDesign:DialogHost
         x:Name="DialogHost"
-        Loaded="{s:Action OnViewFullyLoaded}"
         SnackbarMessageQueue="{Binding Notifications}"
         Style="{DynamicResource MaterialDesignEmbeddedDialogHost}">
         <Grid IsEnabled="{Binding IsOpen, ElementName=DialogHost, Converter={x:Static converters:InverseBoolConverter.Instance}}">

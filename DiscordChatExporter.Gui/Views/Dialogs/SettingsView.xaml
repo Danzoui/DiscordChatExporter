@@ -31,21 +31,6 @@
             BorderThickness="0,1">
             <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
                 <StackPanel>
-                    <!--  Auto-updates  -->
-                    <DockPanel
-                        Margin="16,8"
-                        Background="Transparent"
-                        LastChildFill="False"
-                        ToolTip="Perform automatic updates on every launch">
-                        <TextBlock
-                            VerticalAlignment="Center"
-                            DockPanel.Dock="Left"
-                            Text="Auto-updates" />
-                        <ToggleButton
-                            VerticalAlignment="Center"
-                            DockPanel.Dock="Right"
-                            IsChecked="{Binding IsAutoUpdateEnabled}" />
-                    </DockPanel>
 
                     <!--  Dark mode  -->
                     <DockPanel

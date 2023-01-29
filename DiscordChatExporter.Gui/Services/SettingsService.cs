@@ -6,10 +6,6 @@ namespace DiscordChatExporter.Gui.Services;
 
 public partial class SettingsService : SettingsManager
 {
-    public bool IsUkraineSupportMessageEnabled { get; set; } = true;
-
-    public bool IsAutoUpdateEnabled { get; set; } = true;
-
     public bool IsDarkModeEnabled { get; set; } = IsDarkModeEnabledByDefault();
 
     public bool IsTokenPersisted { get; set; } = true;
